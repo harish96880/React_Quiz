@@ -1,0 +1,136 @@
+html {
+  background-color: #141421;
+}
+
+.App {
+  font-family: monospace;
+}
+
+.header {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main {
+  color: white;
+  width: 98%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+}
+
+.round {
+  padding: 0 0.3rem 0 0.3rem;
+  background-color: #0099ff;
+  border-radius: 50%;
+}
+
+.start-btn {
+  padding: 0.5rem;
+  background-color: hsl(204, 96%, 70%);
+  border-radius: 3.2rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  font-weight: 700;
+  color: #050839;
+}
+
+.start-btn:hover {
+  box-shadow: 1px 1px 8px 1px hsla(204, 96%, 70%, 0.476);
+  transition: 0.7s;
+}
+
+.question-container {
+  margin-top: 2rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.option-btn {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 3.2rem;
+  border: none;
+  background-color: #434344;
+  color: white;
+  cursor: pointer;
+}
+
+.option-btn:hover {
+  background-color: #125683;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.answer {
+  transform: translateX(1rem);
+  transition: 0.5s;
+}
+
+.correct {
+  background-color: #046fb6;
+}
+
+.wrong {
+  background-color: rgb(147, 120, 115);
+}
+
+.access-btns {
+  width: 100%;
+}
+
+.btn {
+  margin: 1rem;
+  float: right;
+  padding: 0.5rem 1rem;
+  border-radius: 3.2rem;
+  border: none;
+  background-color: #434344;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 1px 1px 8px 1px hsla(0, 0%, 100%, 0.1);
+}
+
+.btn:hover {
+  background-color: #2a2a2a;
+  transition: 0.5;
+}
+
+.progress {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  width: 80%;
+  margin: 0.5rem;
+}
+
+.finish-btn {
+  background-color: rgb(27, 139, 162);
+}
+
+.finish-btn:hover {
+  background-color: rgb(9, 214, 255);
+}
+
+.timer {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3.2rem;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
